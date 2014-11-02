@@ -1,0 +1,19 @@
+//Created by DreamMasterXXL
+
+//remove Recipes
+
+//Chisel
+recipes.remove(<chisel:chisel>);
+//Ball of Moss
+recipes.remove(<chisel:ballomoss>);
+//Cloud in a Bottle
+recipes.remove(<chisel:chisel.cloudinabottle>);
+
+//add Recipes
+
+//Chisel
+recipes.addShaped(<chisel:chisel>, [
+[null, <ore:plateIron>, <ore:toolHeadSawIron>],
+[null, <ore:plateIron>, <ore:plateIron>],
+[<ore:stickBronze>, null, null]]);
+[<CarpentersBlocks:blockCarpentersBlock>, <ore:ringIron>, <CarpentersBlocks:blockCarpentersBlock>]]);
